@@ -1,0 +1,10 @@
+[package]
+name = "assetparity-sac-conformance"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+[lib]
+path = "lib.rs"
+[dev-dependencies]
+soroban-sdk = { version = "=29.0.1", features = ["testutils"] }
